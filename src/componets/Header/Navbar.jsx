@@ -68,13 +68,18 @@ function Navbar(props) {
           <div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
-                <div className="flex-shrink-0">
-                  <img
-                    className="h-6 cursor-pointer w-18"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png"
-                    alt="NETFLIX"
-                  />
-                </div>
+              <div className="flex-shrink-0">
+  <div
+    style={{
+      color: "red", // Red color
+      fontSize: "24px", // Large font size
+      fontWeight: "bold", // Bold text
+      cursor: "pointer", // Keep the cursor pointer
+    }}
+  >
+    MOVIEFLEX
+  </div>
+</div>
                 <div className="hidden md:block">
                   <div className="flex items-center ml-10 space-x-4">
                     <Link
@@ -166,7 +171,7 @@ function Navbar(props) {
                             ? `${User.photoURL}`
                             : `https://www.citypng.com/public/uploads/preview/profile-user-round-red-icon-symbol-download-png-11639594337tco5j3n0ix.png`
                         }
-                        alt="NETFLIX"
+                        alt="FLIX"
                       />
                     </Link>
                     <ul class="absolute hidden text-white pt-1 -ml-32 group-hover:block transition ease-in-out delay-150">
